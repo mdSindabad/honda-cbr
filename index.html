@@ -58,7 +58,37 @@
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
                             consequat
                             duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                        <button class="btn py-1 px-5 custom-btn">Purchase</button>
+                        <button class="btn py-1 px-5 custom-btn" data-bs-toggle="modal"
+                            data-bs-target="#hondaModal">Purchase</button>
+                    </div>
+                    <!-- modal start -->
+                    <div class="modal fade text-dark" id="hondaModal" tabindex="-1" aria-labelledby="hondaModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Honda CBR 300</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body row">
+                                    <div class="col-12 col-md-5">
+                                        <img src="images/header-bike.png" alt="hondaCBR" class="img-fluid">
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <p>The 2021 Honda CBR300R is your sweet spot between form and function. It’s
+                                            narrow, light, and a total blast to ride around town and on twisty back
+                                            roads. The single-cylinder engine offers great fuel economy, with smooth and
+                                            friendly torque delivery.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success">Purchase</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 mt-4">
@@ -69,7 +99,66 @@
     </header>
 
     <!-- main section start -->
-    <main></main>
+    <main>
+        <!-- features section start -->
+        <section class="container my-5">
+            <h1 class="text-center">Fetured Bikes 2021</h1>
+            <p class="text-center custom-text-color feature">Best bike collection</p>
+            <!-- <div class="bttom-line mx-auto"></div> -->
+            <div class="row g-3 py-5">
+                <div class="col-12 col-md-4 text-center">
+                    <img src="images/feature-bike.jpg" alt="feature bike" class="img-fluid w-75">
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <img src="images/header-bike.png" alt="feature bike" class="img-fluid w-75">
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <img src="images/feature-bike.jpg" alt="feature bike" class="img-fluid w-75">
+                </div>
+            </div>
+        </section>
+
+        <!-- latest news section start -->
+        <section class="container my-5">
+            <h1 class="text-center my-3">Latest News</h1>
+            <div class="row">
+                <div class="col-12 col-md-4 d-flex justify-content-center">
+                    <div class="card shadow-sm border-0" style="width: 18rem;">
+                        <img src="images/bike-1.png" class="card-img-top p-3" alt="Ducati XDIAVEL S-73">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Ducati XDIAVEL S-73</h5>
+                            <p class="card-text">The new XDiavel Black Star version embodies the sports side of the
+                                Ducati cruiser, with a livery and equipment inspired by the world of sports cars.</p>
+                            <a href="#" class="btn news-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center">
+                    <div class="card shadow-sm border-0" style="width: 18rem;">
+                        <img src="images/bike-2.png" class="card-img-top p-3" alt="Motorcycles & Scooters">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Motorcycles & Scooters</h5>
+                            <p class="card-text">Scooters are popular for personal transportation partly due to being
+                                more affordable, easier to operate, and more convenient.
+                            </p>
+                            <a href="#" class="btn news-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center">
+                    <div class="card shadow-sm border-0" style="width: 18rem;">
+                        <img src="images/bike-3.png" class="card-img-top p-3" alt="2021 Honda CBR500R">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">2021 Honda CBR500R</h5>
+                            <p class="card-text">It any wonder why the Honda CBR500R is one of our most popular
+                                sportbikes? It just gets so many things right. Price. Power. Weight. Handling. </p>
+                            <a href="#" class="btn news-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- footer section start -->
     <footer></footer>
